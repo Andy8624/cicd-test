@@ -11,6 +11,6 @@ export async function generateMetadata({ params }: Params) {
 export default function Page({ params }: Params) {
   return <h1>
     Slug: {params.slug} <span>Andy</span>
-    <h1>Welcome to my Github Repository</h1>
+    <h2>Welcome to my Github Repository</h2>
   </h1>;
 }
